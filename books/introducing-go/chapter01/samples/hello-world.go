@@ -1,5 +1,11 @@
-package main
+package samples
 
-func main() {
-	
+import (
+	"fmt"
+	"os"
+)
+
+func Hello() {
+	fmt.Println("Hello World!")
+	os.Exit(1)
 }
