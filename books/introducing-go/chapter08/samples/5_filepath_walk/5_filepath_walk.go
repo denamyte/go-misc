@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	filepath.Walk("books/introducing-go/chapter08",
+	_ = filepath.Walk("books/introducing-go/chapter08",
 		func(path string, info os.FileInfo, err error) error {
 			fmt.Println(path)
 			return nil

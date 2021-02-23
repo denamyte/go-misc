@@ -3,5 +3,5 @@ package main
 import "errors"
 
 func main() {
-	errors.New("error message")
+	_ = errors.New("error message")
 }
